@@ -22,13 +22,10 @@ public class Main {
 		personnes.forEach(personne->{
 			personne.showMetier();
 		});
-		
 		// Instanciation par interface
 		BrainInterface d=new StupidStudent();
-		
 		List<Personne> personnes2=new ArrayList<Personne>();
 		
 	}
-	
-	
+
 }
